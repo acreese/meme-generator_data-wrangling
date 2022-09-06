@@ -8,7 +8,7 @@ Most of this engineering and data work is coded with Python in Jupyter Notebooks
 
 ## Gallery
 
-# Datasources
+## Datasources
 
 1. [Library of Congress' Meme Generator dataset](https://www.loc.gov/item/2018655320/) - a dataset created on May 5, 2018, from Library of Congress web crawls of http://memegenerator.net/ and accessioned to the Library's Web Cultures Web Archive. It includes data for 57,652 memes. Meme Generator allows users to create and share image macros (featuring a picture, or artwork, superimposed with text) in the style of popular internet memes. Captions were broken into unigrams. No lemmatization was performed.
 
