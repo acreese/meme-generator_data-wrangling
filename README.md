@@ -1,10 +1,13 @@
 # Meme Generator Data Wrangling and Analysis
-Data modeling, data wrangling (database creation), data analysis (language-identification and bootstrap sentiment-analysis), and visualization (with Tableau) of 56,000 Meme Generator memes archived by the Library of Congress. 
+Data modeling, data wrangling (database creation), data analysis (language-identification and bootstrap sentiment-analysis), and visualization (via Tableau) of 56,000 Meme Generator memes archived by the Library of Congress. 
 
 ## Objective
-This repo grew out of graduate project work for Dr. James Howison at the University of Texas at Austin, evolved into visualization project work for Andrea Cato, and is now dedicated to practicing (and preserving) my data engineering and visualization.
 
-Most of this engineering and data work is coded with Python in Jupyter Notebooks, directories will include datasets and code files. Code include comments to walk through different steps of wrangling and analysis.
+This repo grew out of graduate project work for Dr. James Howison at the University of Texas at Austin, evolved into visualization project work for Andrea Cato.
+
+Most of this data engineering and wrangling is coded with SQL and Python inside Jupyter Notebooks.  Futher analysis and visualization is done with Tableau. Directories will include datasets and code files. Notebooks include notes and comments walking through different steps of wrangling and analysis.
+
+## Problem Statement
 
 ## Gallery
 
@@ -17,6 +20,8 @@ Most of this engineering and data work is coded with Python in Jupyter Notebooks
 3. [Stonybrook University Data Science Lab's international sentiment lexicons](https://sites.google.com/site/datascienceslab/projects/multilingualsentiment) (also avaiable on [Kaggle](https://www.kaggle.com/rtatman/sentiment-lexicons-for-81-languages)) – sets collected by Yanqing Chen and Steven Skiena<sup>1</sup> of both "positive" and "negative" lexicons for 82 languages.
 
 <sup>1</sup>Chen, Y., & Skiena, S. (2014). "Building Sentiment Lexicons for All Major Languages.". In *ACL* (2) (pp. 383-389).)
+
+## Data Modeling
 
 
 
