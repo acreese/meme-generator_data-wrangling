@@ -23,9 +23,7 @@ Most of this data engineering and wrangling is coded with SQL and Python inside 
 
 2. [Hong Kong University of Science and Technology’s Knowledge Computation Group hate speech dataset](https://github.com/HKUST-KnowComp/MLMA_hate_speech) – contains hate speech indicator words in English, French, and Arabic.
 
-3. [Stonybrook University Data Science Lab's international sentiment lexicons](https://sites.google.com/site/datascienceslab/projects/multilingualsentiment) (also avaiable on [Kaggle](https://www.kaggle.com/rtatman/sentiment-lexicons-for-81-languages)) – sets collected by Yanqing Chen and Steven Skiena<sup>1</sup> of both "positive" and "negative" lexicons for 82 languages.
-
-<sup>1</sup>Chen, Y., & Skiena, S. (2014). "Building Sentiment Lexicons for All Major Languages.". In *ACL* (2) (pp. 383-389).)
+3. [Stonybrook University Data Science Lab's international sentiment lexicons](https://sites.google.com/site/datascienceslab/projects/multilingualsentiment) (also avaiable on [Kaggle](https://www.kaggle.com/rtatman/sentiment-lexicons-for-81-languages)) – sets collected by Yanqing Chen and Steven Skiena ([2014 paper](https://www.semanticscholar.org/paper/Building-Sentiment-Lexicons-for-All-Major-Languages-Chen-Skiena/c5e3b065e352a93d8754b86baaf8ec20bf81a5c3) of both "positive" and "negative" lexicons for 82 languages.
 
 ## Data Modeling
 
