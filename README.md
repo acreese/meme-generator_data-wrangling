@@ -9,7 +9,13 @@ Most of this data engineering and wrangling is coded with SQL and Python inside 
 
 ## Problem Statement
 
+...
+
 ## Gallery
+
+![Meme sentiment and language visualization with Tableau](assets/meme_dash.png)
+
+[Interact with the dashboard on TableauPublic](https://public.tableau.com/views/MemeGeneratorLanguageandSentiment/FinalDraftDashboard2?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 ## Datasources
 
