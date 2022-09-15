@@ -29,6 +29,23 @@ Most of this data engineering and wrangling is coded with SQL and Python inside 
 
 ![Entity relationshiip diagram](assets/meme_erd.jpeg)
 
+## Challenges and adaptations
+
+**Identifying Languages - true and false cognates :**
+
+When comparing the individual words in each meme to words in our 82 lexicons (in order to assign a words_in_language_id) we quickly realized the problem of both true and false cognates. Words in memes were being assinged to the first matching word in a sentiment lexicon regardless of meme language. 
+- e.g. the netural english ("a"), spanish ("las" and "los"), and french ("un") articles were included in other language sentiment lexicons.
+- even the neutral english verb "is" in a clearly English meme was assigned a negative sentiment score in a separate  lexicon) 
+
+Accordingly memes were often assigned two (2) or more different languages, which further complicated our ability to determine language and sentiments. 
+
+Multilingual memes are certainly a reality, and this processing method is certianly not an effective approach to take. So we bracketed this issue and turned to several a Python package that would first probabilistically identify the language of our captions, allowing us to compare and match caption words to the sentiment lexicons of those identified languages. This strategy  allowed us to get around the fact that these sentiment lexicons were not created to  identify languages, but rather to analyze datasets of *known* languages.
+- I firt tried the *langdetect* package, but a rough visual check on a sample set of meme captions showed an unreasonable amount of misidentification.
+- I then turned to the *langid* package, which visibly performed better (but certainly not perfect) on a sample set of captions. 
+
+
+
+
 
 
 
