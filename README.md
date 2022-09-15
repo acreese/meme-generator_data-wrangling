@@ -25,7 +25,9 @@ Most of this data engineering and wrangling is coded with SQL and Python inside 
 
 3. [Stonybrook University Data Science Lab's international sentiment lexicons](https://sites.google.com/site/datascienceslab/projects/multilingualsentiment) (also avaiable on [Kaggle](https://www.kaggle.com/rtatman/sentiment-lexicons-for-81-languages)) – sets collected by Yanqing Chen and Steven Skiena ([2014 paper](https://www.semanticscholar.org/paper/Building-Sentiment-Lexicons-for-All-Major-Languages-Chen-Skiena/c5e3b065e352a93d8754b86baaf8ec20bf81a5c3)) of both "positive" and "negative" lexicons for 82 languages.
 
-## Data Modeling
+## Database Design / Data Modeling
+
+![Entity relationshiip diagram](assets/meme_erd.jpg)
 
 
 
