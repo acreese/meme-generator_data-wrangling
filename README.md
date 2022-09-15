@@ -27,7 +27,7 @@ Most of this data engineering and wrangling is coded with SQL and Python inside 
 
 ## Database Design / Data Modeling
 
-![Entity relationshiip diagram](assets/meme_erd.jpg)
+![Entity relationshiip diagram](assets/meme_erd.jpeg)
 
 
 
